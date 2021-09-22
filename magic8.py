@@ -3,7 +3,7 @@ while True:
     name = input("Please enter your name: ")
     question = input("What is your question: ")
     answer = ()
-    random_number = random.randint(1, 12)
+    random_number = random.randint(1, 14)
 
     if name == "" and not question == "":
         print("Question:", question)
@@ -36,6 +36,10 @@ while True:
         answer = ("For sure.")
     elif random_number == 12:
         answer = ("You already know the answer bud.")
+    elif random_number == 13:
+        answer = ("Whatever you don't want the answer to be, that's the answer. Must suck lol.")
+    elif random_number == 14:
+        answer = ("Whatever you want the answer to be, that's what is is. Congratulations!")
     else:
         answer = ("Error")
 
